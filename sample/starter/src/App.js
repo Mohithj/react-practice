@@ -4,11 +4,13 @@ import AppGallery from "./Lifecycle/AppGallery";
 import FunComp from "./FuncComp/FunComp";
 import FCuseEffect from "./FCuseEffect/FCuseEffect";
 import FCapi from "./FCapi/FCapi";
+import FCref from "./FCref/FCref";
 
 class App extends React.Component {
   render(){
     return (
       <div>
+        <FCref />
         <FCapi />
         <FCuseEffect />
         <Counter />
