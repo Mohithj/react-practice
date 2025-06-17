@@ -27,7 +27,7 @@ class Counter extends React.Component {
         return (
             <div>
                 <Header />
-                {console.log(this)}
+                {/* {console.log(this)} */}
                 <Button btnClick={this.incrementHandler} dispBtn="+" />
                 <Display dispVal = {this.state.count} />
                 <Button btnClick={this.decrementHandler} dispBtn="-" />
