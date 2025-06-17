@@ -8,7 +8,9 @@ function FCref() {
     },[]);
     
     return (
-        <input ref={searchRef} value={search} onChange={(e) => setSearch(e.target.value)}/>
+        <div>Using useRef to retain the reference to input bar{" "}
+            <input ref={searchRef} value={search} onChange={(e) => setSearch(e.target.value)}/>
+        </div>
     );
 }
 
