@@ -8,8 +8,8 @@ function GalleryHome () {
     <div>
         <center><h1>App Gallery</h1></center>
         <Routes>
-            <Route path="albums" element={<Albums />}/>
-            <Route path="photos" element={<Photos />}/>
+            <Route path="/" element={<Albums />}/>
+            <Route path="/photos/:id" element={<Photos />}/>
         </Routes>
     </div>
     );
