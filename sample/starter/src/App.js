@@ -6,17 +6,20 @@ import FCuseEffect from "./FCuseEffect/FCuseEffect";
 import FCapi from "./FCapi/FCapi";
 import FCref from "./FCref/FCref";
 import FCdebounce from "./FCdebounce/FCdebounce";
+import GalleryHome from "./Gallery/GalleryHome";
+
 
 class App extends React.Component {
   render(){
     return (
       <div>
-        <FCdebounce />
+        <GalleryHome/>
+        {/* <FCdebounce />
         <FCref />
         <FCapi />
         <FCuseEffect />
         <Counter />
-        <FunComp />
+        <FunComp /> */}
         {/* <AppGallery /> */}
       </div>
     );
