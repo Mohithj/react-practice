@@ -7,13 +7,15 @@ import FCapi from "./FCapi/FCapi";
 import FCref from "./FCref/FCref";
 import FCdebounce from "./FCdebounce/FCdebounce";
 import GalleryHome from "./Gallery/GalleryHome";
+import CounterOne from "./CounterRedux/Components/counterOne";
 
 
 class App extends React.Component {
   render(){
     return (
       <div>
-        <GalleryHome/>
+        <CounterOne />
+        {/* <GalleryHome/> */}
         {/* <FCdebounce />
         <FCref />
         <FCapi />
