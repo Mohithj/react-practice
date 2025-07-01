@@ -1,23 +1,25 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { incrementCount, decrementCount } from "../store/action";
+import { decrementCount2, incrementCount2 } from "../store/action";
 
-const CounterOne = () => {
-    const count2 = useSelector((state) => state?.countReducer2?.count);
+const CounterRone = () => {
+    const count = useSelector((state) => state.countReducer2.count);
     const dispatch = useDispatch();
     const handleIncrement = () => {
-        dispatch(incrementCount());
-    }
+        dispatch(incrementCount2());
+    };
+
     const handleDecrement = () => {
-        dispatch(decrementCount());
-    }
+        dispatch(decrementCount2());
+    };
+
     return (
         <>
             <button onClick={handleDecrement}>-</button>
-            <p>{count2}</p>
+            <span>{count}</span>
             <button onClick={handleIncrement}>+</button>
         </>
-    );
+    )
 };
 
-export default CounterOne;
+export default CounterRone;
