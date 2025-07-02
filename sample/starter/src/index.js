@@ -6,7 +6,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { Provider } from 'react-redux';
-import { store } from './CounterRedux2/store';
+// import { store } from './CounterRedux2/store';
+import {store} from './CounterRedux/store';  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
