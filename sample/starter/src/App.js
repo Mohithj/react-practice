@@ -8,7 +8,7 @@ import FCref from "./FCref/FCref";
 import FCdebounce from "./FCdebounce/FCdebounce";
 import GalleryHome from "./Gallery/GalleryHome";
 import CounterOne from "./CounterRedux/Components/counterOne";
-import CounterRone from "./CounterRedux2/Components/counterRone";
+// import CounterRone from "./CounterRedux2/Components/counterRone";
 
 
 class App extends React.Component {
@@ -16,15 +16,15 @@ class App extends React.Component {
     return (
       <div>
         <CounterOne />
-        {/* <CounterRone /> */}
-        {/* <GalleryHome/> */}
-        {/* <FCdebounce />
+        {/* <CounterRone />
+        <GalleryHome/>
+        <FCdebounce />
         <FCref />
-        <FCapi />
-        <FCuseEffect />
-        <Counter />
-        <FunComp /> */}
-        {/* <AppGallery /> */}
+        <FCapi /> */}
+        {/* <FCuseEffect /> */}
+        {/* <Counter />
+        <FunComp />
+        <AppGallery /> */}
       </div>
     );
   }
