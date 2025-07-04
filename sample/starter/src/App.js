@@ -15,13 +15,13 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <CounterOne />
+        {/* <CounterOne /> */}
         {/* <CounterRone />
         <GalleryHome/>
         <FCdebounce />
         <FCref />
         <FCapi /> */}
-        {/* <FCuseEffect /> */}
+        <FCuseEffect />
         {/* <Counter />
         <FunComp />
         <AppGallery /> */}

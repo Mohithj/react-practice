@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { incrementCount } from "../CounterRedux/store/action";
 
 function FCuseEffect() {
 
-    const [count, setCount] = useState(0);
-    // const count = useSelector((state) => state?.countReducer2?.count);
+    // const [count, setCount] = useState(0);
+    const count = useSelector((state) => state?.countReducer?.count);
+    const dispatch = useDispatch();
 
     useEffect(()=>{
         console.log("Triggering from useEffect");
@@ -12,7 +14,7 @@ function FCuseEffect() {
 
     return (
     <div>useEffect scenario{" "}
-        <button onClick={() => setCount((prevState)=>prevState+1)}>Increment: {count}</button>
+        <button onClick={() => dispatch(incrementCount())}>Increment: {count}</button>
     </div>
     );
 }
