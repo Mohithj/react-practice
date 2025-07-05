@@ -15,9 +15,8 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        {/* <CounterOne /> */}
-        {/* <CounterRone />
-        <GalleryHome/>
+        <CounterOne />
+        {/* <GalleryHome/>
         <FCdebounce />
         <FCref />
         <FCapi /> */}
