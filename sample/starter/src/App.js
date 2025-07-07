@@ -20,7 +20,7 @@ class App extends React.Component {
         <FCdebounce />
         <FCref />
         <FCapi /> */}
-        <FCuseEffect />
+        {/* <FCuseEffect /> */}
         {/* <Counter />
         <FunComp />
         <AppGallery /> */}
