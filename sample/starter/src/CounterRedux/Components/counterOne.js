@@ -6,15 +6,13 @@ const CounterOne = () => {
 
     const count2 = useSelector((state) => state?.countReducer?.count);
     const dispatch = useDispatch();
-
     const handleIncrement = () => {
         dispatch(incrementCount());
     }
-
     const handleDecrement = () => {
         dispatch(decrementCount());
     }
-    
+
     return (
         <>
             <button onClick={handleDecrement}>-</button>
