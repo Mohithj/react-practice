@@ -9,9 +9,11 @@ const CounterOne = () => {
     const handleIncrement = () => {
         dispatch(incrementCount());
     }
+
     const handleDecrement = () => {
         dispatch(decrementCount());
     }
+    
     return (
         <>
             <button onClick={handleDecrement}>-</button>
