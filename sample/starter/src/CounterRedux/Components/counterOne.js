@@ -4,6 +4,7 @@ import { incrementCount, decrementCount } from "../store/action";
 
 const CounterOne = () => {
     const count2 = useSelector((state) => state?.countReducer?.count);
+    
     const dispatch = useDispatch();
     const handleIncrement = () => {
         dispatch(incrementCount());
