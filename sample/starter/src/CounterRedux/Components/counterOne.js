@@ -10,6 +10,7 @@ const CounterOne = () => {
         dispatch(incrementCount());
     }
 
+    
     const handleDecrement = () => {
         dispatch(decrementCount());
     }
